@@ -1,4 +1,5 @@
-package binaryTreeMaximumPathSum;
+package maximumPathSum;
+
 
 import java.util.ArrayList;
 
@@ -26,3 +27,4 @@ public class Solution {
         return root.val + Math.max(left, Math.max(right, 0));
     }
 }
+
